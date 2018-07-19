@@ -1,21 +1,32 @@
 # gidday-world
 A slightly novel take on the classic
 
-Catching up on my technology:
+This project is part of my catching up on my technology:
 
-Docker
+- SCM
+  - GitHub
 
-Messaging space
+- Containers
+  - Docker
+
+- Messaging
   - RabbitMQ
   - Apache Kafka
-API tooling space
+
+- API tooling
   - OpenAPI
   - AsyncAPI maybe
-Java 
-  - Spring Framework
-  - Unit testing
-    - JUnit
-    - Mockito
-Build tools
+
+- Programming Languages
+  - Java 
+    - Spring Framework
+    - Unit testing
+      - JUnit
+      - Mockito
+
+- Build tools
   - Maven
   - Gradle
+
+- Continuous Integration & Continuous Delivery
+  - TODO
