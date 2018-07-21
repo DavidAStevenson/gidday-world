@@ -23,6 +23,7 @@ This project is part of my catching up on my technology:
     - Unit testing
       - JUnit
       - Mockito
+    - Guice (for DI, related to Governator, which has retired Karyon)
 
 - Build tools
   - Maven
