@@ -6,9 +6,10 @@ This project is part of my catching up on my technology:
 - SCM
   - GitHub
 
-- Containers
-  - Docker
-
+- Virtualization / Deployment
+  - Vagrant VMs (Completed "getting started" 7/28)
+  - Docker Containers
+  
 - Messaging
   - RabbitMQ
   - Apache Kafka
