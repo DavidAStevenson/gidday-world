@@ -4,31 +4,45 @@ A slightly novel take on the classic
 This project is part of my catching up on my technology:
 
 - SCM
-  - GitHub
+  - GitHub (DONE)
 
 - Virtualization / Deployment
-  - Vagrant VMs (Completed "getting started" 7/28)
-  - Docker Containers
-  
+  - Vagrant VMs (DONE)
+  - Docker Containers (DONE)
+
+- Container Orchestration
+  - docker-compose (DONE)
+  - Kubernetes (IN PROGRESS)
+
 - Messaging
+  - NATS (DONE)
   - RabbitMQ
   - Apache Kafka
 
 - API tooling
-  - OpenAPI
+  - OpenAPI (fka Swagger)
   - AsyncAPI maybe
 
 - Programming Languages
+  - Golang
   - Java 
-    - Spring Framework
+    - Spring Framework (DONE)
     - Unit testing
-      - JUnit
+      - JUnit (DONE)
       - Mockito
     - Guice (for DI, related to Governator, which has retired Karyon)
+  - C++
 
 - Build tools
-  - Maven
+  - Maven (DONE)
   - Gradle
 
 - Continuous Integration & Continuous Delivery
-  - TODO
+  - Jenkins (DONE)
+  - Circle CI
+  - GitHub integration with Slack (DONE)
+  - GitHub integration with Jenkins, etc
+
+- Cloud providers
+  - GCP (IN PROGRESS)
+  - AWS
