@@ -58,3 +58,35 @@ This project is part of my catching up on my technology:
     - https://aws.amazon.com/jp/cloudformation/
     - https://aws.amazon.com/jp/cli
     - http://docs.ansible.com/ansible/intro_dynamic_inventory.html
+
+```
+                      +
+                      | requests
+                      |
+          +-----------v-----------+
+          |          ELB          |
+          | (distribute between   |
+          |       blue/green)     |
+          +-+------------------+--+
+            |                  |
+            |                  |
++-----------v------+     +-----v------------+
+|                  |     |                  |
+|       Blue       |     |       Green      |
+| +-----+  +-----+ |     | +-----+  +-----+ |
+| |     |  |     | |     | |     |  |     | |
+| |     |  |     | |     | |     |  |     | |
+| +-----+  +-----+ |     | +-----+  +-----+ |
+|  Web 1    Web 2  |     |  Web 1    Web 2  |
++----------^-------+     +------^-----------+
+           |                    |
+           |                    |
+     +-----+--------------------+------+
+     |         +--------+              |
+     |         |        |              |
+     |         |   CI   | Ansible      |
+     |         | Server | (config      |
+     |         |        |  management) |
+     |         +--------+              |
+     +---------------------------------+
+```
