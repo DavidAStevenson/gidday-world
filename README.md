@@ -50,6 +50,13 @@ This project is part of my catching up on my technology:
   - GitHub integration with Slack (DONE)
   - GitHub integration with Jenkins, etc
 
+- Configuration Management
+  - Ansible 
+    - Reading Tettei Nyumon
+      - https://github.com/h-hirokawa/tettei-nyumon-playbooks 
+      - read through to end of chapter 3 of the book
+  - Chef
+
 - Cloud providers
   - GCP (IN PROGRESS)
   - AWS
