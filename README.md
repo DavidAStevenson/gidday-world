@@ -13,7 +13,8 @@ This project is part of my catching up on my technology:
 - Container Orchestration
   - docker-compose (DONE)
   - Kubernetes (IN PROGRESS)
-    - Reading through kuard (currently reading chapter 7) 
+    - Reading through kuard (currently reading chapter 7)
+    - run exercises through page 62 in minikube
 
 - Messaging
   - NATS (DONE)
