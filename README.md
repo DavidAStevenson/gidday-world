@@ -39,6 +39,8 @@ This project is part of my catching up on my technology:
     - C++17
   - Python
     - Python 3
+      - pytest
+      - unittest, nose
     - Python 2
 
 - Build tools
