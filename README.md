@@ -61,6 +61,15 @@ This project is part of my catching up on my technology:
       - read through to end of chapter 3 of the book
   - Chef
 
+- HashiCorp tools
+  - Consul
+  - Vault
+  - Terraform
+
+- Serverless
+  - AWS Lambda
+  - GCP functions?
+
 - Cloud providers
   - GCP (IN PROGRESS)
   - AWS
