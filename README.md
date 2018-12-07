@@ -87,6 +87,7 @@ This project is part of my catching up on my technology:
   - AWS (IN PROGRESS)
   	- AWS Lambda
 		- (DONE) https://aws.amazon.com/getting-started/tutorials/run-serverless-code/
+		- Developer Guide: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
     - https://aws.amazon.com/jp/ec2/
     - https://aws.amazon.com/jp/elasticloadbalancing/
     - https://aws.amazon.com/jp/cloudformation/
