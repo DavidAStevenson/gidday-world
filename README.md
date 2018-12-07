@@ -43,6 +43,17 @@ This project is part of my catching up on my technology:
       - unittest, nose
     - Python 2
 
+- Web Service
+	- design a simple OpenAPI spec
+		- something that could run as a side-car to alphabet-pingpong?
+	- implement in python
+		- use python3, flask, connexion to implement it
+		- dockerize it in a smallish image (e.g. python3 alpine?)
+	- implement in golang
+		- find some examples of how to do equivalent in golang, and do it
+		- go-swagger? 
+		- API-First tooling for golang?
+
 - Build tools
   - Maven (DONE)
   - Gradle
@@ -51,6 +62,7 @@ This project is part of my catching up on my technology:
   - Jenkins (DONE)
   - Circle CI
   - Travis CI
+  - GoCD?
   - GitHub integration with Slack (DONE)
   - GitHub integration with Jenkins, etc
 
@@ -72,7 +84,9 @@ This project is part of my catching up on my technology:
 
 - Cloud providers
   - GCP (IN PROGRESS)
-  - AWS
+  - AWS (IN PROGRESS)
+  	- AWS Lambda
+		- (DONE) https://aws.amazon.com/getting-started/tutorials/run-serverless-code/
     - https://aws.amazon.com/jp/ec2/
     - https://aws.amazon.com/jp/elasticloadbalancing/
     - https://aws.amazon.com/jp/cloudformation/
